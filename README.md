@@ -38,3 +38,9 @@ BINANCE_SECRET_KEY=your_secret_key
 # To Run
 python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.01 --price 74000
+
+## Assumptions
+
+- Binance Futures Testnet is used.
+- API keys are loaded from .env.
+- LIMIT orders require a price argument.
