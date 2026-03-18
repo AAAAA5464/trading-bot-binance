@@ -34,3 +34,7 @@ Create `.env` file:
 
 BINANCE_API_KEY=your_api_key
 BINANCE_SECRET_KEY=your_secret_key
+
+# To Run
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01
+python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.01 --price 74000
